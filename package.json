@@ -1,0 +1,15 @@
+{
+	"name": "svg-sprite",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build:sprite": "node build-sprite.js"
+	},
+	"keywords": [],
+	"author": "Spanioulis.dev",
+	"license": "ISC",
+	"description": "Create a SVG Sprite with svg-sprite package https://github.com/svg-sprite/svg-sprite",
+	"devDependencies": {
+		"svg-sprite": "^2.0.4"
+	}
+}

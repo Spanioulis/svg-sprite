@@ -1,18 +1,20 @@
 # Instalación
 
-## Clonar el repositorio (https/ssh):
+## Clonar el repositorio (https o ssh):
 
 ```sh
 git clone https://github.com/Spanioulis/svg-sprite.git
-o
+```
+```sh
 git clone git@github.com:Spanioulis/svg-sprite.git
 ```
 
-## Instalar las dependencias (npm/pnpm):
+## Instalar las dependencias (npm o pnpm):
 
 ```sh
 npm install
-o
+```
+```sh
 pnpm install
 ```
 
@@ -22,13 +24,14 @@ pnpm install
 
 ```sh
 npm run build:sprite
-o
+```
+```sh
 pnpm run build:sprite
 ```
 
-El sprite se genera en la carpeta `dist/sprite.svg`
+El sprite se genera en la carpeta dist: `dist/sprite.svg`
 
-## Cómo incrustar el sprite en un sitio web
+## Cómo incrustar el sprite en tu código
 
 ```html
 <svg>

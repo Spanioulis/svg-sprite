@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"build:sprite": "node build-sprite.js"
+		"build": "node build-sprite.js"
 	},
 	"keywords": [],
 	"author": "Spanioulis.dev",
